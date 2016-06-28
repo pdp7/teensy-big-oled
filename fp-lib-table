@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Wickerlib)(type KiCad)(uri /home/pdp7/dev/oshpark/wickerlib/libraries/Wickerlib.pretty)(options "")(descr ""))
+  (lib (name teensyi2c)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)
