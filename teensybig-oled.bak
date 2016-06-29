@@ -68,14 +68,12 @@ Text Label 6025 2825 0    60   ~ 0
 RST
 Text Label 6225 2925 0    60   ~ 0
 DC
-Text Label 6275 3025 0    60   ~ 0
+Text Label 5500 3350 0    60   ~ 0
 CLK
-Text Label 6250 3125 0    60   ~ 0
+Text Label 5500 3250 0    60   ~ 0
 MOSI
-Text Label 5875 5150 0    60   ~ 0
-OLED_GND
 Text Label 5925 2150 0    60   ~ 0
-OLED_VIN
+VIN
 $Comp
 L HEADER-FEMALE-8POS-TH-1x08-P0.1IN J2
 U 1 1 573AD5FE
@@ -94,14 +92,36 @@ F 10 "Not Verified" H 7625 2800 50  0001 C CIN "Verified"
 	1    7625 3150
 	1    0    0    -1  
 $EndComp
+Text Label 7250 2800 0    60   ~ 0
+GND
+Text Label 7275 2900 0    60   ~ 0
+VIN
+Text Label 7250 3000 0    60   ~ 0
+3V3
+Text Label 7250 3100 0    60   ~ 0
+CS
+Text Label 7250 3200 0    60   ~ 0
+RST
+Text Label 7050 3300 0    60   ~ 0
+SA0/DC
+Text Label 7225 3400 0    60   ~ 0
+CLK
+Text Label 7175 3500 0    60   ~ 0
+Data
+Text Label 5875 5150 0    60   ~ 0
+GND
+Text Label 5500 3550 0    60   ~ 0
+CS
+Text Label 5500 3650 0    60   ~ 0
+RST
+Text Label 5500 3450 0    60   ~ 0
+DC
 Wire Wire Line
-	5825 2725 6825 2725
+	5825 2725 7075 2725
 Wire Wire Line
 	5825 2725 5825 3550
 Wire Wire Line
 	5825 3550 5475 3550
-Wire Wire Line
-	5975 2825 6925 2825
 Wire Wire Line
 	5975 2825 5975 3650
 Wire Wire Line
@@ -111,67 +131,47 @@ Wire Wire Line
 Wire Wire Line
 	6100 3450 6100 2925
 Wire Wire Line
-	6175 3025 6575 3025
+	5475 3350 6700 3350
 Wire Wire Line
-	6175 3025 6175 3350
+	5475 3250 6775 3250
 Wire Wire Line
-	6175 3350 5475 3350
-Wire Wire Line
-	5725 3125 6525 3125
-Wire Wire Line
-	5725 3125 5725 3250
-Wire Wire Line
-	5725 3250 5475 3250
-Wire Wire Line
-	5525 2150 6700 2150
-Wire Wire Line
-	6525 2800 7425 2800
-Wire Wire Line
-	6575 2900 7425 2900
-Wire Wire Line
-	6975 3000 7425 3000
-Wire Wire Line
-	7100 3500 7100 5150
-Wire Wire Line
-	7100 5150 5475 5150
-Wire Wire Line
-	6700 2150 6700 3400
+	5525 2150 7125 2150
 Wire Wire Line
 	6700 3400 7425 3400
 Wire Wire Line
-	6825 2725 6825 3200
-Wire Wire Line
-	6825 3200 7425 3200
-Wire Wire Line
-	6925 2825 6925 3100
-Wire Wire Line
-	6925 3100 7425 3100
-Wire Wire Line
-	6975 2925 6975 3000
+	6975 2925 6975 3300
 Wire Wire Line
 	6100 2925 6975 2925
 Wire Wire Line
-	6575 3025 6575 2900
+	6775 3500 7425 3500
 Wire Wire Line
-	6525 3125 6525 2800
+	5475 5150 8375 5150
 Wire Wire Line
-	7100 3500 7425 3500
-Text Label 7250 2800 0    60   ~ 0
-GND
-Text Label 7275 2900 0    60   ~ 0
-Vin
-Text Label 7250 3000 0    60   ~ 0
-3v3
-Text Label 7250 3100 0    60   ~ 0
-CS
-Text Label 7250 3200 0    60   ~ 0
-Rst
-Text Label 7050 3300 0    60   ~ 0
-SA0/DC
-Text Label 7225 3400 0    60   ~ 0
-Clk
-Text Label 7175 3500 0    60   ~ 0
-Data
+	8375 5150 8375 2425
 Wire Wire Line
-	7425 3300 6950 3300
+	8375 2425 7175 2425
+Wire Wire Line
+	7175 2425 7175 2800
+Wire Wire Line
+	7175 2800 7425 2800
+Wire Wire Line
+	7425 2900 7125 2900
+Wire Wire Line
+	7125 2900 7125 2150
+Wire Wire Line
+	7075 2725 7075 3100
+Wire Wire Line
+	7075 3100 7425 3100
+Wire Wire Line
+	6975 3300 7425 3300
+Wire Wire Line
+	7025 2825 7025 3200
+Wire Wire Line
+	7025 3200 7425 3200
+Wire Wire Line
+	6700 3350 6700 3400
+Wire Wire Line
+	5975 2825 7025 2825
+Wire Wire Line
+	6775 3250 6775 3500
 $EndSCHEMATC
