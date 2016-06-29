@@ -3,7 +3,7 @@
   (general
     (links 7)
     (no_connects 0)
-    (area 134.601193 91.466999 167.361646 132.834655)
+    (area 134.601193 91.134385 167.96202 138.227614)
     (thickness 1.6)
     (drawings 23)
     (tracks 39)
@@ -388,7 +388,7 @@
   )
 
   (module Wickerlib:Symbol_OSHW-Logo_SilkScreen (layer F.Cu) (tedit 5773C0FA) (tstamp 5775109D)
-    (at 162.052 125.857 270)
+    (at 163.83 95.504 270)
     (descr "Symbol, OSHW-Logo, Silk Screen,")
     (tags "Symbol, OSHW-Logo, Silk Screen,")
     (fp_text reference REF** (at 0.09906 -4.38912 270) (layer F.SilkS) hide
@@ -707,7 +707,7 @@
       (xy 0.172866 -2.680894) (xy 0.778728 -2.584594)) (layer F.SilkS) (width 0.01))
   )
 
-  (gr_text "drew@oshpark.com\n" (at 150.749 92.837 180) (layer F.SilkS)
+  (gr_text "drew@oshpark.com\n" (at 146.685 92.964 180) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "drew@oshpark.com\n" (at 136.144 110.998 270) (layer F.SilkS)
