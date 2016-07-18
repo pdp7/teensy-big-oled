@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name teensy-big-oled)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
 )
